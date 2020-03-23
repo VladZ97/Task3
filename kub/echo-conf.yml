@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: echo-conf
+
+data:
+  default: |
+    cG9ydDogMzAwMApsb2dsZXZlbDogaW5mbwpwZXJzaXN0OiB0cnVlCm1vbmdvZGJ1cmw6IG1vbmdv
+    ZGI6Ly92b3Y6MTIzNEBtb25nb2RiLXByaW1hcnktMC5tb25nb2RiLWhlYWRsZXNzOjI3MDE3LG1v
+    bmdvZGItc2Vjb25kYXJ5LTAubW9uZ29kYi1oZWFkbGVzczoyNzAxNyxtb25nb2RiLXNlY29uZGFy
+    eS0xLm1vbmdvZGItaGVhZGxlc3M6MjcwMTcvZWNobz9yZXBsaWNhU2V0PXJzMA==
